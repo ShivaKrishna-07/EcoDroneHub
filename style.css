@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;1,200&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    color:#734eec;
+    font-weight: bold;
+}
+
+/* home */
+.home{
+    min-height: 5vh;
+    min-width: 100vw;
+    background: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.home p{
+    padding: 107px;
+    font-size: 32px;
+}
+
+.content{
+    height: 200px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.content p{
+    padding: 10px 290px;
+    text-align: center;
+}
+
+/* about */
+.btn{    
+    position: relative;
+    right: 33px !important; 
+    bottom: -4px !important;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .box1{
+    height: 90vh;
+    width: 45vw;
+    padding: 200px 0;
+}
+
+.container .box1 h1{
+    color: #734eec;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container .box1 p{
+    padding: 10 100px ;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container .box2{
+    height: 90vh;
+    width: 45vw;
+    
+}
+
+.mission {
+    margin: 65px 0;
+    background-color: #734eec;
+    height: 40vh;
+    width: 100%;
+    
+}
+.mission h1{
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.mission p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* services */
+
+/* -->Traffic */
+
+.traffic .container .box1{
+    height: 90vh;
+    width: 45vw;
+    padding: 100px 0 !important;
+}
+
+footer img {
+    height: 60vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+/* agriculture */
+
+.agriculture h1{
+    color: #3d2d72;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0;
+}
+.agriculture p{
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+.agri-features h1{
+    text-align: center;
+    color: #3d2d72;
+    padding-bottom: 5px;
+}
+
+/* delivery */
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+}
+
+.delivery .box1{
+    padding-top: 80px !important;
+}
+
+.boxes .text{
+    padding-right: 15px;
+    padding-left: 25px;
+    padding-top: 70px;
+}
+
+.boxes .text h2{
+    color: #3d2d72;
+    padding-bottom: 10px;
+}
+
+.boxes img{
+    height: 350px;
+}
+
+/* contact */
+
+.Contact {
+    min-height: 100vh;
+    background-color: rgb(231 225 251);
+    width: 100%;
+  }
+  
+  .Contact header {
+    height: 80px;
+    margin-bottom: 55px;
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact header  ion-icon{
+    padding-right: 10px;
+  }
+  
+  .Contact .page1 {
+    position: relative;
+    z-index: 33;
+    background-color: #fff;
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 3px 12px 0px #9e9d9d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+  }
+  
+  .Contact .page1 .pic {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pic .contact-img {
+    width: 350px;
+  }
+  
+  .Contact .page1 .contact-form {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .pic img {
+    width: 300px;
+  }
+  
+  .contact-form .text {
+    position: relative;
+    text-align: center;
+    height: 52px;
+    font-size: 36px;
+  }
+  
+  form {
+    position: relative;
+    left: 20px;
+    width: 80%;
+    margin-top: 30px;
+  }
+  
+  .input-box {
+    height: 40px;
+    margin: 20px 0;
+  }
+  .input {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid #292929;
+    padding: 15px;
+    color: black;
+    background-color: rgb(231 225 251);
+    font-weight: 600;
+  }
+  
+  textarea {
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #080808;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgb(231 225 251);
+  }
+  
+  form .btn {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+    height: 38px;
+    width: 90px;
+    border-radius: 5px;
+    background-color:#734eec;
+    text-align: center;
+    padding-top: 7px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
